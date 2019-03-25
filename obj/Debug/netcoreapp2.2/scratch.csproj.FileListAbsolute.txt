@@ -1,0 +1,11 @@
+/Users/josh.espinas/dev/scratch/bin/Debug/netcoreapp2.2/scratch.deps.json
+/Users/josh.espinas/dev/scratch/bin/Debug/netcoreapp2.2/scratch.runtimeconfig.json
+/Users/josh.espinas/dev/scratch/bin/Debug/netcoreapp2.2/scratch.runtimeconfig.dev.json
+/Users/josh.espinas/dev/scratch/bin/Debug/netcoreapp2.2/scratch.dll
+/Users/josh.espinas/dev/scratch/bin/Debug/netcoreapp2.2/scratch.pdb
+/Users/josh.espinas/dev/scratch/obj/Debug/netcoreapp2.2/scratch.csprojAssemblyReference.cache
+/Users/josh.espinas/dev/scratch/obj/Debug/netcoreapp2.2/scratch.csproj.CoreCompileInputs.cache
+/Users/josh.espinas/dev/scratch/obj/Debug/netcoreapp2.2/scratch.AssemblyInfoInputs.cache
+/Users/josh.espinas/dev/scratch/obj/Debug/netcoreapp2.2/scratch.AssemblyInfo.cs
+/Users/josh.espinas/dev/scratch/obj/Debug/netcoreapp2.2/scratch.dll
+/Users/josh.espinas/dev/scratch/obj/Debug/netcoreapp2.2/scratch.pdb
