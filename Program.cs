@@ -7,7 +7,9 @@ namespace scratch
         static void Main(string[] args)
         {
             System.Console.WriteLine("My example of creating a user defined exception:\n");
-
+            System.Console.Write("Give me a number between 5 and 10:");
+            var input = Console.ReadLine();
+            System.Console.WriteLine($"You have given me {input}");
             var myNumber = new DivideByZero();
 
             try
