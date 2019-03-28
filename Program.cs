@@ -1,4 +1,5 @@
 ﻿using System;
+using Scratch.Exceptions;
 
 namespace Scratch
 {
@@ -23,9 +24,13 @@ namespace Scratch
                 myNumber.canBeDivided();
                 myNumber.isWithinLimits();
             }
-            catch (Exception e)
+            catch (IsZeroException e)
             {
                 System.Console.WriteLine($"IsZeroException: {e}");
+            }
+            catch (FormatException e)
+            {
+                System.Console.WriteLine($"Format Exception: {e}");
             }
         }
     }

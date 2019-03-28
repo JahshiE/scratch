@@ -15,7 +15,7 @@ namespace Scratch
         public void canBeDivided() {
             if (_value == 0)
             {
-                throw (new IsZeroException("Number was zero! Can't divide."));
+                throw (new IsZeroException("Number was zero. Can't use it to divide."));
             }
             else
             {
