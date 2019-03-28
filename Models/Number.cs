@@ -1,3 +1,4 @@
+using System;
 using Scratch.Exceptions;
 
 namespace Scratch
@@ -14,12 +15,17 @@ namespace Scratch
         public void canBeDivided() {
             if (_value == 0)
             {
-                throw (new DivideByZeroException("Number was zero! Can't divide."));
+                throw (new IsZeroException("Number was zero! Can't divide."));
             }
             else
             {
                 System.Console.WriteLine($"Yes, {_value} can be divided because it is not zero.");
             }
+        }
+
+        internal void isWithinLimits()
+        {
+            throw new NotImplementedException();
         }
     }
 }

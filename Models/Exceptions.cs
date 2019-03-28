@@ -2,9 +2,9 @@ using System;
 
 namespace Scratch.Exceptions
 {
-    public class DivideByZeroException : Exception
+    public class IsZeroException : Exception
     {
-        public DivideByZeroException(string message) : base(message)
+        public IsZeroException(string message) : base(message)
         {
         }
     }

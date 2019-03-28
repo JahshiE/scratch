@@ -14,18 +14,18 @@ namespace Scratch
             System.Console.Write($"Give me a number between {lowerLimit} and {upperLimit}: ");
             
             var input = Console.ReadLine();
-            
+
             System.Console.WriteLine($"You have given me {input}");
-            
-            var myNumber = new Number(Convert.ToInt32(input));
 
             try
             {
+                var myNumber = new Number(Convert.ToInt32(input));
                 myNumber.canBeDivided();
+                myNumber.isWithinLimits();
             }
             catch (Exception e)
             {
-                System.Console.WriteLine($"DivideByZeroException: {e.Message}");
+                System.Console.WriteLine($"IsZeroException: {e}");
             }
         }
     }
