@@ -1,4 +1,4 @@
 # Don't track content of these folders
-bin/
-obj/
-.vscode/
+bin/*
+obj
+.vscode
