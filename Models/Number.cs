@@ -5,7 +5,7 @@ namespace Scratch
 {
     public class Number
     {
-        private int _value;
+        private double _value;
 
         public Number(int value)
         {
